@@ -7,7 +7,7 @@ exercise.order = function(unordered) {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    unordered.sort();
     return ordered;
 };
 
