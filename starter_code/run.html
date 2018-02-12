@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<!-- document style -->
+<style>.format{font-size:1.5em;font-family:arial}</style>
+
+<!-- load library -->
+<script src="exercise.js"></script>
+
+<!-- buttons used to call functions -->
+<button onclick="callFirst()" class="format">Call 1st Function</button>
+<div id='firstResponse'></div><br>
+
+<button onclick="callSecond()" class="format">Call 2nd Function</button>
+<div id='secondResponse'></div><br>
+
+<button onclick="callThird()" class="format">Call 3rd Function</button>
+<div id='thirdResponse'></div><br>
+
+<script>
+
+function callFirst(){
+	var response = exercise.first();
+	document.getElementById('firstResponse').innerHTML = response;	
+}
+
+function callSecond(){
+	var response = exercise.second();
+	document.getElementById('secondResponse').innerHTML = response;	
+}
+
+function callThird(){
+	var response = exercise.third();
+	document.getElementById('thirdResponse').innerHTML = response;	
+}
+
+
+</script>
+</html>
