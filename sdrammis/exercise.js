@@ -4,9 +4,7 @@ exercise.order = function(unordered) {
     var ordered = [];
 
     // Sorting a numerical array from minimum to maximum
-    // -------------------------------	
-    // ---------- Your Code ----------
-    // -------------------------------	
+    console.log('testing...');
 
     return ordered;
 };
