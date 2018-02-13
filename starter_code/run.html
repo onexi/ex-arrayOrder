@@ -7,32 +7,15 @@
 <script src="exercise.js"></script>
 
 <!-- buttons used to call functions -->
-<button onclick="callFirst()" class="format">Call 1st Function</button>
-<div id='firstResponse'></div><br>
-
-<button onclick="callSecond()" class="format">Call 2nd Function</button>
-<div id='secondResponse'></div><br>
-
-<button onclick="callThird()" class="format">Call 3rd Function</button>
-<div id='thirdResponse'></div><br>
+<button onclick="callOrder()" class="format">Call order function</button>
+<div id='orderResponse'></div><br>
 
 <script>
 
-function callFirst(){
-	var response = exercise.first();
-	document.getElementById('firstResponse').innerHTML = response;	
+function callOrder(){
+	var response = exercise.order();
+	document.getElementById('orderResponse').innerHTML = response;	
 }
-
-function callSecond(){
-	var response = exercise.second();
-	document.getElementById('secondResponse').innerHTML = response;	
-}
-
-function callThird(){
-	var response = exercise.third();
-	document.getElementById('thirdResponse').innerHTML = response;	
-}
-
 
 </script>
 </html>
