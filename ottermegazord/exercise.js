@@ -8,7 +8,7 @@ exercise.order = function(unordered) {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-    ordered = unordered.sort();
+    ordered = unordered.sortNumber();
     console.log(ordered);
     return ordered;
 };
