@@ -2,12 +2,14 @@ var exercise = {};
 
 exercise.order = function(unordered) {
     var ordered = [];
+    
 
     // Sorting a numerical array from minimum to maximum
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    ordered = unordered.sort(function(a, b){return a-b});
+    console.log(ordered);
     return ordered;
 };
 
