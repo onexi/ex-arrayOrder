@@ -2,13 +2,14 @@ var exercise = {};
 
 exercise.order = function(unordered) {
     var ordered = [];
-    ordered.sort();
+    
 
     // Sorting a numerical array from minimum to maximum
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-
+    ordered.sort();
+    console.log(ordered)
     return ordered;
 };
 
