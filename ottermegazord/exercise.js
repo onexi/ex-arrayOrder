@@ -8,8 +8,8 @@ exercise.order = function(unordered) {
     // -------------------------------	
     // ---------- Your Code ----------
     // -------------------------------	
-    ordered.sort();
-    console.log(ordered)
+    ordered = unordered.sort();
+    console.log(ordered);
     return ordered;
 };
 
